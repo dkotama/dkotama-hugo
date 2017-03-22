@@ -1,0 +1,4 @@
+languageCode = "en-us"
+title = "Darma Kotama's Blog"
+baseURL = "http://dkotama.github.io/"
+theme = 'hugo-redlounge'
