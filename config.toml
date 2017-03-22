@@ -31,7 +31,7 @@ highlightjs            = true
 lang                   = "en"
 linkedin               = "//linkedin.com/in/you"
 noshowreadtime         = false                         # if true, don't show "<x> minutes read" in posts
-selfintro              = "HTML5 Games Developer"                            # appears in the site header when set to a non-empty string
+selfintro              = "I make games and write stories"                            # appears in the site header when set to a non-empty string
 twitter                = "//twitter.com/dkotama"
 # highlightjslanguages = ["go"]                        # additional languages not included in the "common" set
 
