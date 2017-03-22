@@ -1,4 +1,39 @@
-languageCode = "en-us"
-title = "Darma Kotama's Blog"
-baseURL = "http://dkotama.github.io/"
-theme = 'hugo-redlounge'
+baseurl             = "https://dkotama.github.io/"
+builddrafts         = false
+canonifyurls        = true
+contentdir          = "content"
+languageCode        = "en-US"
+layoutdir           = "layouts"
+publishdir          = "public"
+author              = "Darma Kotama"
+title               = "Darma Kotama"
+pygmentsuseclasses  = true
+#disqusshortname     = "cocoaexamplesite" # Comment out to disable Disqus.
+pluralizelisttitles = false
+#googleAnalytics     = "UA-123-45"
+
+[permalinks]
+fixed = ":title/"
+blog  = "blog/:slug/"
+games = "games/:slug"
+
+[params]
+author                 = "Darma Kotama"
+cachebuster            = true                # add the current unix timestamp in query string for cache busting css assets
+dateform               = "Jan 2, 2006"
+dateformfull           = "Mon Jan 2 2006 15:04:05 MST"
+description            = "Sic itur ad astra."
+email                  = "darma.kotama@gmail.com"
+extracssfiles          = [ "/css/override.css" ]       # In your `static` directory, add/remove files as necessary.
+#faviconfile            = "img/leaf.ico"
+github                 = "//github.com/dkotama"
+highlightjs            = true
+lang                   = "en"
+linkedin               = "//linkedin.com/in/you"
+noshowreadtime         = false                         # if true, don't show "<x> minutes read" in posts
+selfintro              = "HTML5 Games Developer"                            # appears in the site header when set to a non-empty string
+twitter                = "//twitter.com/dkotama"
+# highlightjslanguages = ["go"]                        # additional languages not included in the "common" set
+
+avatar                 = "img/profile.png" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
+# gravatar             = ""                # do not use in the same time as avatar
